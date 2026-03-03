@@ -14,7 +14,7 @@
 ![Desktop Preview](./img/Screenshot.png)
 
 ### 📱 Mobile
-![Mobile Preview](./img/mobail-Screenshot.png)
+![Mobile Preview](./img/mobailScreenshot.png)
 
 ---
 
