@@ -8,6 +8,16 @@
 
 ---
 
+## 📸 Preview
+
+### 🖥️ Desktop
+![Desktop Preview](./img/Screenshot.png)
+
+### 📱 Mobile
+![Mobile Preview](./img/mobail-Screenshot.png)
+
+---
+
 ## 🚀 Live Demo
 
 👉 [https://hamza-leon120.github.io/Get-in-touch/](https://hamza-leon120.github.io/Get-in-touch/)
