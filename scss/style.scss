@@ -1,0 +1,128 @@
+@use "./layout/layout" as * ;
+@use "./mixin/mixin" as * ;
+
+
+section {
+    height: 100vh;
+    .container  {
+        padding: 20px;
+        .title {
+            text-align: center;
+            p:first-child {
+                font: {
+                    size: 81px;
+                    weight: 800;
+                }
+                color: #FFFFFF;
+                span {
+                    background: linear-gradient(to right ,#FFFFFF 0% , #763AF5 48% , #A604F2 99%);
+                    -webkit-background-clip: text ;
+                    -webkit-text-fill-color: transparent;
+                }
+                margin-bottom: 7px;
+                @include medai (mobail) {
+                    font-size: 50px;
+                }
+            }
+            p:nth-child(2) {
+                color: #FFFFFF;
+                font: {
+                    size: 22px;
+                    weight: 500;
+                }
+                @include medai (mobail) {
+                    font-size: 20px;
+                }
+            }
+        }
+        .contact {
+            align-items: center;
+            height: 576px ;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+            margin-top: 67px;
+            background-color: rgba(255, 255, 255, 0.04);
+            border: 2px rgba(10, 13, 23, 0.05) solid ;
+            border-radius: 20px;
+            padding: 40px;
+            @include medai (max-medium) {
+                grid-template-columns: repeat(1,1fr);
+                background-image: url(../img/Image.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 25px;
+            }
+            @include medai (mobail) {
+                margin-top: 40px;
+            }
+            .right {
+                > p:first-child {
+                    color: #FFFFFF;
+                    font: {
+                        size: 30px;
+                        weight: 600 ;
+                    }
+                    margin-bottom: 8px;
+                    @include medai (mobail) {
+                        font-size: 24px;
+                    }
+                }
+                > P:nth-child(2){
+                    font-size: 15px;
+                    color: #FFFFFF;
+                    margin-bottom: 41px;
+                }
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    input {
+                        color: rgba(255, 255, 255, 0.6);
+                        padding: 12px 14px;
+                        height: 42px;
+                        border-radius: 5px;
+                        border: 1px rgba(255, 255, 255, 0.05) solid;
+                        margin-bottom: 14px;
+                        background-color: rgba(255, 255, 255, 0.05);
+                        width: 100%;
+                    }
+                    > input:last-child {
+                        height: 109px;
+                    }
+                    .name {
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        gap: 14px ;
+                    }
+                }
+                .button {
+                    cursor: pointer;
+                    height: 42px;
+                    background-image: linear-gradient(to right ,#763AF5 0%,#A604F2 100% );
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        color: #FFFFFF;
+                        font: {
+                            size: 15px;
+                            weight: 500 ;
+                        }
+                    }
+                }
+            }
+            .left {
+                height: 100%;
+                background-image: url(../img/Image.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 12px;
+                position: relative;
+                @include medai (max-medium) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0px auto;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0px 20px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+section {
+  height: 100vh;
+}
+section .container {
+  padding: 20px;
+}
+section .container .title {
+  text-align: center;
+}
+section .container .title p:first-child {
+  font-size: 81px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+section .container .title p:first-child span {
+  background: linear-gradient(to right, #FFFFFF 0%, #763AF5 48%, #A604F2 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section .container .title p:first-child {
+  margin-bottom: 7px;
+}
+@media (max-width: 767px) {
+  section .container .title p:first-child {
+    font-size: 50px;
+  }
+}
+section .container .title p:nth-child(2) {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  section .container .title p:nth-child(2) {
+    font-size: 20px;
+  }
+}
+section .container .contact {
+  align-items: center;
+  height: 576px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 67px;
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 2px rgba(10, 13, 23, 0.05) solid;
+  border-radius: 20px;
+  padding: 40px;
+}
+@media (max-width: 992px) {
+  section .container .contact {
+    grid-template-columns: repeat(1, 1fr);
+    background-image: url(../img/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+  }
+}
+@media (max-width: 767px) {
+  section .container .contact {
+    margin-top: 40px;
+  }
+}
+section .container .contact .right > p:first-child {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+@media (max-width: 767px) {
+  section .container .contact .right > p:first-child {
+    font-size: 24px;
+  }
+}
+section .container .contact .right > P:nth-child(2) {
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-bottom: 41px;
+}
+section .container .contact .right .info {
+  display: flex;
+  flex-direction: column;
+}
+section .container .contact .right .info input {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 12px 14px;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px rgba(255, 255, 255, 0.05) solid;
+  margin-bottom: 14px;
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 100%;
+}
+section .container .contact .right .info > input:last-child {
+  height: 109px;
+}
+section .container .contact .right .info .name {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+section .container .contact .right .button {
+  cursor: pointer;
+  height: 42px;
+  background-image: linear-gradient(to right, #763AF5 0%, #A604F2 100%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container .contact .right .button p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+}
+section .container .contact .left {
+  height: 100%;
+  background-image: url(../img/Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  position: relative;
+}
+@media (max-width: 992px) {
+  section .container .contact .left {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
