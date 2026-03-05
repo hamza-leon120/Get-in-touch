@@ -8,6 +8,12 @@
 
 ---
 
+## 🚀 Live Demo
+
+👉 [https://hamza-leon120.github.io/Get-in-touch/](https://hamza-leon120.github.io/Get-in-touch/)
+
+---
+
 ## 📸 Preview
 
 ### 🖥️ Desktop
@@ -16,11 +22,6 @@
 ### 📱 Mobile
 ![Mobile Preview](./img/mobailScreenshot.png)
 
----
-
-## 🚀 Live Demo
-
-👉 [https://hamza-leon120.github.io/Get-in-touch/](https://hamza-leon120.github.io/Get-in-touch/)
 
 ---
 
